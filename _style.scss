@@ -1,0 +1,58 @@
+$mainBackgroundColor: #4f4f51;
+$mainBorderColor: #353536;
+$outputScreenColor: #b9bdb6;
+
+$baseWidth: 300px;
+$baseHeight: 500px;
+
+$innerWidth: 270px; //90%
+$innerHeight: 485px; //97%
+
+$borderWidth: 2px;
+
+$innerTopHeightUnmodified: 190px;
+
+$innerTopHeightModified: $innerTopHeightUnmodified - $borderWidth;
+$innerBottomHeight: $innerHeight - $innerTopHeightUnmodified;
+
+$scannerHeight: 40px;
+$scannerWidth: 120px;
+
+$scannerMarginAndRadius: 4px;
+
+$scannerHeightInner: $scannerHeight - ($scannerMarginAndRadius * 2);
+$scannerWidthInner: $scannerWidth - ($scannerMarginAndRadius * 2);
+
+$scannerWidthInnerBorderWidth: 1px;
+
+$scannerHeightInnerSquare: $scannerHeightInner -
+  ($scannerWidthInnerBorderWidth * 2);
+$scannerWidthInnerSquare: $scannerWidthInner -
+  ($scannerWidthInnerBorderWidth * 2);
+
+$scannerMarginHeight: 30px;
+$scannerOutputWindowDistance: 20px;
+
+$outputHeight: 85px;
+$outputWidth: 260px;
+
+$outputInnerMarginAndRadius: 9px;
+
+$outputHeightInner: $outputHeight - ($outputInnerMarginAndRadius * 2) - 5.2px;
+$outputWidthInner: $outputWidth - ($outputInnerMarginAndRadius * 2) - 7.2px;
+
+$buttonGridMargin: 15px;
+$buttonGridHeight: $innerBottomHeight - ($buttonGridMargin * 2);
+$buttonGridWidth: 15px;
+$buttonGridWidth: $innerWidth - ($buttonGridMargin * 2);
+
+$basicButtonWidth: 55px;
+
+$basicButtonHeight: 42px;
+$smallButtonHeight: 32px;
+$bigButtonHeight: 90px;
+
+@font-face {
+  font-family: "digital-clock-font";
+  src: url("./digital-7.ttf");
+}
