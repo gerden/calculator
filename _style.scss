@@ -1,6 +1,10 @@
 $mainBackgroundColor: #4f4f51;
 $mainBorderColor: #353536;
 $outputScreenColor: #b9bdb6;
+$borderColor: #171617;
+
+$buttonColor: #2a2929;
+$buttonActiveColor: #1f1e1e;
 
 $baseWidth: 300px;
 $baseHeight: 500px;
@@ -23,7 +27,7 @@ $scannerMarginAndRadius: 4px;
 $scannerHeightInner: $scannerHeight - ($scannerMarginAndRadius * 2);
 $scannerWidthInner: $scannerWidth - ($scannerMarginAndRadius * 2);
 
-$scannerWidthInnerBorderWidth: 1px;
+$scannerWidthInnerBorderWidth: 3px;
 
 $scannerHeightInnerSquare: $scannerHeightInner -
   ($scannerWidthInnerBorderWidth * 2);
@@ -38,8 +42,8 @@ $outputWidth: 260px;
 
 $outputInnerMarginAndRadius: 9px;
 
-$outputHeightInner: $outputHeight - ($outputInnerMarginAndRadius * 2) - 5.2px;
-$outputWidthInner: $outputWidth - ($outputInnerMarginAndRadius * 2) - 7.2px;
+$outputHeightInner: $outputHeight - ($outputInnerMarginAndRadius * 2);
+$outputWidthInner: $outputWidth - ($outputInnerMarginAndRadius * 2);
 
 $buttonGridMargin: 15px;
 $buttonGridHeight: $innerBottomHeight - ($buttonGridMargin * 2);
@@ -50,6 +54,12 @@ $basicButtonWidth: 55px;
 
 $basicButtonHeight: 42px;
 $smallButtonHeight: 32px;
+$bigButtonHeight: 90px;
+
+$basicFont: 30px;
+$smallFont: 20px;
+$outputFont: 55px;
+
 $bigButtonHeight: 90px;
 
 @font-face {
